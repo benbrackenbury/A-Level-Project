@@ -1,0 +1,52 @@
+.User {
+  width: calc(100vw - 20px);
+  height: 100vh;
+  margin-left: -20px; }
+  @media screen and (max-width: 1000px) {
+    .User {
+      width: 100vw; } }
+  .User .header {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #222;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    @media screen and (max-width: 1000px) {
+      .User .header {
+        height: auto; } }
+    .User .header #header-wrapper {
+      display: flex;
+      align-items: center; }
+      .User .header #header-wrapper #avatar-wrapper {
+        height: 127px;
+        width: 127px;
+        border-radius: 50%;
+        margin-right: 25px;
+        background: #666; }
+        @media screen and (max-width: 1000px) {
+          .User .header #header-wrapper #avatar-wrapper {
+            height: 80px;
+            width: 80px; } }
+      .User .header #header-wrapper #fullname {
+        font-weight: 900;
+        font-size: 40px;
+        box-shadow: 50x 5px 5px black; }
+        @media screen and (max-width: 1000px) {
+          .User .header #header-wrapper #fullname {
+            font-size: 28px; } }
+      .User .header #header-wrapper #username {
+        font-style: italic; }
+        @media screen and (max-width: 1000px) {
+          .User .header #header-wrapper #username {
+            font-size: 18px; } }
+  .User .PostsView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }

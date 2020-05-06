@@ -1,0 +1,70 @@
+@import "./vars.scss";
+
+// general for entire application
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: $background-dark;
+    color: $text-accent-dark;
+    padding: 0;
+}
+
+.navbar {
+    background: $background-darker;
+
+    a {
+        color: $text-accent-dark;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+
+    .navbar-toggler-icon.glyphicon.glyphicon-menu-hamburger {
+        font-size: 26px;
+        padding: 7px;
+    }
+
+    span {
+        margin-right: 5px;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif !important;
+    }
+
+    #logout_btn {
+        border: none;
+    }
+
+    #profile_btn {
+        border: none;
+    }
+
+    #upload_btn {
+        border: none;
+        margin-top: 3px;
+        background: $orange-gradient;
+        &:hover {
+            box-shadow: 5px 5px 38px -4px rgba(0,0,0,0.5);
+            margin-top: -0.1px;
+            margin-bottom: 2px;
+            transition: 0.25s ease-in-out;
+        }
+    }
+
+    .nav-link:hover, .nav-link {
+        background: none !important;
+    }
+
+    .nav-link:hover {
+        color: #BBB;
+    }
+}

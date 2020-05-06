@@ -1,0 +1,32 @@
+.Category {
+  width: calc(100vw - 20px);
+  height: 100vh;
+  margin-left: -20px; }
+  @media screen and (max-width: 1000px) {
+    .Category {
+      width: 100vw; } }
+  .Category .header {
+    background-image: linear-gradient(to bottom right, #00537E, #3AA17E);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ddd;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    margin-top: -20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .Category .header select {
+      color: #222 !important; }
+    .Category .header > h1 {
+      text-transform: capitalize; }
+    .Category .header > h4 {
+      margin-top: 20px; }
+  .Category .PostsView {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }

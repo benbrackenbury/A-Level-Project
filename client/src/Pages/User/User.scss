@@ -1,0 +1,70 @@
+@import "../../vars.scss";
+
+.User {
+    width: calc(100vw - 20px);
+    height: 100vh;
+    margin-left: -20px;
+
+    @media screen and (max-width: 1000px) {
+        width: 100vw;
+    }
+
+    .header{
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: $text-accent-light;
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media screen and (max-width: 1000px) {
+            height: auto;
+        }
+
+        #header-wrapper {
+            display: flex;
+            align-items: center;
+
+            #avatar-wrapper {
+                height: 127px;
+                width: 127px;
+                border-radius: 50%;
+                margin-right: 25px;
+                background: #666;
+
+                @media screen and (max-width: 1000px) {
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+
+            #fullname {
+                font-weight: 900;
+                font-size: 40px;
+                box-shadow: 50x 5px 5px black;
+                @media screen and (max-width: 1000px) {
+                    font-size: 28px;
+                }
+            }
+
+            #username {
+                font-style: italic;
+                @media screen and (max-width: 1000px) {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .PostsView {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

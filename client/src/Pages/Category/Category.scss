@@ -1,0 +1,46 @@
+@import "../../vars.scss";
+
+.Category {
+    width: calc(100vw - 20px);
+    height: 100vh;
+    margin-left: -20px;
+
+    @media screen and (max-width: 1000px) {
+        width: 100vw;
+    }
+
+    .header {
+        background-image: $blue-gradient;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: $text-accent-dark;
+        width: 100%;
+        height: 300px;
+        padding: 20px;
+        margin-top: -20px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        select {
+            color: $text-accent-light !important;
+        }
+
+        & > h1 {
+            text-transform: capitalize;
+        }
+
+        & > h4 {
+            margin-top: 20px;
+        }
+    }
+
+    .PostsView {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

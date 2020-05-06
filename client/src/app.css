@@ -1,0 +1,43 @@
+* {
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  background-color: #36474F;
+  color: #ddd;
+  padding: 0; }
+
+.navbar {
+  background: #253238; }
+  .navbar a {
+    color: #ddd; }
+  .navbar .navbar-brand {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif !important; }
+  .navbar .navbar-toggler-icon.glyphicon.glyphicon-menu-hamburger {
+    font-size: 26px;
+    padding: 7px; }
+  .navbar span {
+    margin-right: 5px; }
+  .navbar .nav-link {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif !important; }
+  .navbar #logout_btn {
+    border: none; }
+  .navbar #profile_btn {
+    border: none; }
+  .navbar #upload_btn {
+    border: none;
+    margin-top: 3px;
+    background: linear-gradient(to bottom right, #F24645, #fac584); }
+    .navbar #upload_btn:hover {
+      box-shadow: 5px 5px 38px -4px rgba(0, 0, 0, 0.5);
+      margin-top: -0.1px;
+      margin-bottom: 2px;
+      transition: 0.25s ease-in-out; }
+  .navbar .nav-link:hover, .navbar .nav-link {
+    background: none !important; }
+  .navbar .nav-link:hover {
+    color: #BBB; }

@@ -1,0 +1,29 @@
+.Register {
+  margin-left: -20px; }
+  .Register .wrapper {
+    margin: -20px;
+    height: 100vh;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    box-shadow: 0px 10px 80px -2px rgba(0, 0, 0, 0.4); }
+    .Register .wrapper form {
+      width: 50vw;
+      padding: 20px;
+      margin: 0 auto;
+      border-radius: 15px; }
+      @media (max-width: 1000px) {
+        .Register .wrapper form {
+          width: 100vw;
+          border: none;
+          padding: 25px; } }
+      .Register .wrapper form .form-group:last-of-type {
+        margin-bottom: 40px; }
+      .Register .wrapper form .btn-primary {
+        background-image: linear-gradient(to bottom right, #F24645, #fac584);
+        border: none;
+        font-size: 18px; }
+        .Register .wrapper form .btn-primary:hover {
+          box-shadow: 5px 5px 38px -4px rgba(0, 0, 0, 0.5);
+          margin-top: -2px;
+          margin-bottom: 2px; }

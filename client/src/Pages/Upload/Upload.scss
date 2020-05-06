@@ -1,0 +1,40 @@
+@import "../../vars.scss";
+
+//Scoped to Upload Page
+.Upload {
+    //general for entire page
+    margin-left: -20px;
+
+    //child elements
+    .wrapper {
+        margin: -20px;
+        height: 100vh;
+        padding-top: 20px;
+        text-align: center;
+        background-attachment: fixed;
+        box-shadow: 0px 10px 80px -2px rgba(0,0,0,0.4);
+
+        & #loading-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            width: 50vw;
+            padding: 20px;
+            margin: 0 auto;
+            border: 2px solid $accent;
+            border-radius: 15px;
+            @media (max-width: 1000px) {
+                width: 100vw;
+                border: none;
+                padding: 25px;
+            }
+            #image_file, #category {
+                height: 40px;
+            }
+        }
+    }
+
+}

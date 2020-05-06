@@ -1,0 +1,13 @@
+.FollowBtn {
+  background: transparent;
+  color: #34495e;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 900;
+  border: 3px solid #34495e;
+  border-radius: 10px;
+  transition: 0.25s ease-in-out; }
+  .FollowBtn:hover, .FollowBtn.active {
+    background: #34495e;
+    color: white;
+    transition: 0.25s ease-in-out; }
