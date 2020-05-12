@@ -4,7 +4,10 @@
 Uses MERN Stack
 
 > 1.1
+
 is the Express server backend
 
+
 > client
+
 is the react frontend
