@@ -3,11 +3,11 @@
 ### Allows users to sign in, upload photos, comment and vote
 Uses MERN Stack
 
-> 1.1
+* > 1.1
 
-is the Express server backend
+&nbsp;&nbsp;&nbsp;is the Express server backend
 
 
-> client
+* > client
 
-is the react frontend
+&nbsp;&nbsp;&nbsp;is the react frontend
